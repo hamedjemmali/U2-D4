@@ -1,0 +1,71 @@
+body{
+    background-color: #666666;
+}
+main{
+
+    display:flex;
+    flex-direction: row;
+    width: 500px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     
+   
+}
+
+.card{
+   margin: 10px;
+    width: 100px;
+    height: 100px;
+    /* border:2px black solid; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.45); 
+box-shadow: 5px 0px 7px 2px rgba(0,0,0,0.45);
+
+
+
+
+}
+#card-1{
+  background-color: #BEBEA2;  
+  transform: rotate(-5deg);
+}
+#card-2{
+    background-color: #B9DCBB; 
+    transform: rotate(5deg);
+  }
+  #card-3{
+    background-color: #9394A6;  
+    transform: rotate(-5deg);
+  }
+  #card-4{
+    background-color: #B0D1B2;  
+    transform: rotate(5deg);
+  }
+  #card-5{
+    background-color: #BDBDA3;  
+    transform: rotate(-5deg);
+  }
+  #card-6{
+    background-color: #B5B4D3;  
+    transform: rotate(-5deg);
+  }
+  #card-7{
+    background-color: #C3C4A5;  
+    transform: rotate(-5deg);
+  }
+  #card-8{
+    background-color: #C6F4C6; 
+    transform: rotate(-5deg); 
+  }
+ 
+  #container :hover ,#container2 :hover ,#container3 :hover ,#container4 :hover ,#container5 :hover ,#container6 :hover ,#container7 :hover , #container8 :hover , #container7 :hover{
+    -webkit-box-shadow: 8px 4px 5px 2px rgba(0,0,0,0.7); 
+box-shadow: 8px 4px 5px 2px rgba(0,0,0,0.7);
+
+transform: rotate(0deg); 
+ 
+ z-index: 2;
+}
